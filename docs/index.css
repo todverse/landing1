@@ -21,7 +21,7 @@ body {
 	display: flex;
 }
 .navPan__nav_list_a {
-	margin-right: 30px;
+	margin-right: 25px;
 	margin-top: 10px;
 }
 .navPan__nav_list_a:hover {
@@ -229,8 +229,11 @@ body {
 	}
 }
 @media screen and (max-width:540px) {
-	.navPan__nav_list_a {
+	.navPan__nav_list {
 		margin-right: 5px;
+	}
+	.navPan__nav_list_a {
+		margin-right: 10px;
 		width: 50%;
 	}
 	.social__text_textHead {
