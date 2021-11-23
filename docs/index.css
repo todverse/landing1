@@ -164,7 +164,6 @@ body {
 }
 .social__text {
 	width: 40%;
-	border: 1px solid black;
 }
 .social__text_textHead {
 	font-size: 1.5em;
@@ -177,9 +176,14 @@ body {
 	color: #86878b;
 }
 .social__web {
-	width: 60%;
-	border: 1px solid black;
+	width: 40%;
+	margin: auto;
+	display: flex;
 }
+.social__web_img {
+	width: 100%;
+}
+
 @media screen and (max-width: 1140px) {
 	.header__formBox_form {
 		height: 260px;
@@ -227,6 +231,24 @@ body {
 		margin-left: 15%;
 		font-size: 0.8em;
 	}
+	.social {
+		display: block;
+		height: 110px;
+	}
+	.social__text {
+		width: 80%;
+		height: 55px;
+		margin: auto;
+	}
+	.social__web {
+		width: 70%;
+		height: 55px;
+		display: flex;
+		margin: auto;
+	}
+	.social__web_img {
+		width: 100%;
+	}
 }
 @media screen and (max-width:540px) {
 	.navPan__nav_list {
@@ -255,7 +277,19 @@ body {
 	.header__textBox {
 		margin-bottom: 80px;
 	}
-	.social {
-		height: 110px;
+	.social__text {
+		width: 100%;
+		height: 55px;
+		margin: auto;
+	}
+	.social__web {
+		width: 100%;
+		height: 55px;
+		display: flex;
+		margin: auto;
+	}
+	
+	.header__textBox_button {
+		width: 30%;
 	}
 }
