@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.navPan {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	display: flex;
+}
+.navPan_img {
+	margin: auto;
+}
+.navPan__nav {
+	width: 80%;
+}
+.navPan__nav_list {
+	color: white;
+	float: right;
+	margin-right: 50px;
+	display: flex;
+}
+.navPan__nav_list_a {
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.navPan__nav_list_a:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+.navPan__nav_list_a_el {
+	list-style-type: none;
+}
+.header {
+	width: 100%;
+	height: 640px;
+	background-image: url(images/background-for-header.jpg);
+	display: flex;
+}
+.header__textBox {
+	width: 60%;
+	height: 640px;
+	margin: 0px;
+	padding: 0px;
+}
+.header__formBox {
+	width: 40%;
+	height: 640px;
+	margin: 0px;
+	padding: 0px;
+}
+.header__formBox_form {
+	width: 360px;
+	height: 360px;
+	margin-left: 20%;
+	margin-top: 20%;
+	background-color: white;
+	border-radius: 5px;
+}
+.header__formBox_form_text {
+	background-color: #f5f5f5;
+	line-height: 56px;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 5px;
+}
+.specialText-free {
+	color: #ff8b38;
+}
+.header__formBox_form_name {
+	width: 79%;
+	height: 35px;
+	margin-left: 9%;
+	margin-bottom: 40px;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+}
+.focus:hover {
+	border: 1px solid #d6d6d6;
+}
+.focus:focus {
+	outline: 0;
+    outline-offset: 0;
+    border: 1px solid black;
+}
+.header__formBox_form_button {
+	width: 100%;
+	height: 60px;
+	background-color: #ff9b51;
+	color: white;
+	border: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.header__formBox_form_button:hover {
+	background-color: #f9ba8c;
+}
+@media screen and (max-width: 1140px) {
+	.header__formBox_form {
+		width: 260px;
+		height: 260px;
+	}
+	.header__formBox_form_name {
+		margin-bottom: 15px;
+	}
+	.header__formBox_form_text {
+		font-size: 1.3em;
+		line-height: 36px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.header {
+		display: grid;
+		height: 1000px;
+	}
+	.header__textBox {
+		width: 100%;
+		height: 500px;
+	}
+	.header__formBox {
+		width: 100%;
+		height: 500px;
+	}
+	.header__formBox_form {
+		margin: auto;
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width:540px) {
+	.navPan__nav_list_a {
+		margin-right: 5px;
+		width: 50%;
+	}
+}
