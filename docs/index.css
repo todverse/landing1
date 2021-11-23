@@ -52,9 +52,9 @@ body {
 	padding: 0px;
 }
 .header__formBox_form {
-	width: 360px;
+	width: 70%;
 	height: 360px;
-	margin-left: 20%;
+	margin: auto;
 	margin-top: 20%;
 	background-color: white;
 	border-radius: 5px;
@@ -97,10 +97,64 @@ body {
 .header__formBox_form_button:hover {
 	background-color: #f9ba8c;
 }
+.header__textBox_img {
+	margin-top: 110px;
+	margin-left: 15%;
+}
+.header__textBox_textHead {
+	width: 70%;
+	margin-left: 15%;
+	color: white;
+}
+.header__textBox_underLine {
+	width: 15%;
+	margin-left: 15%;
+}
+.header__textBox_text {
+	width: 50%;
+	margin-left: 15%;
+	color: white;
+}
+.header__textBox_button {
+	margin-left: 15%;
+	width: 20%;
+	height: 40px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+}
+.header__textBox_button:hover {
+	border: 1px solid gray;
+	color: gray;
+}
+.social {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.social__text {
+	width: 40%;
+	border: 1px solid black;
+}
+.social__text_textHead {
+	font-size: 1.5em;
+	margin-left: 25%;
+	margin-bottom: 0px;
+}
+.social__text_text {
+	margin-left: 25%;
+	margin-top: 0px;
+	color: #86878b;
+}
+.social__web {
+	width: 60%;
+	border: 1px solid black;
+}
 @media screen and (max-width: 1140px) {
 	.header__formBox_form {
-		width: 260px;
 		height: 260px;
+		margin-top: 100px;
 	}
 	.header__formBox_form_name {
 		margin-bottom: 15px;
@@ -108,6 +162,10 @@ body {
 	.header__formBox_form_text {
 		font-size: 1.3em;
 		line-height: 36px;
+	}
+	.header__textBox_img {
+		width: 120px;
+		margin-top: 90px;
 	}
 }
 @media screen and (max-width: 850px) {
@@ -124,13 +182,49 @@ body {
 		height: 500px;
 	}
 	.header__formBox_form {
+		width: 260px;
 		margin: auto;
 		margin-top: 0px;
+	}
+	.header__textBox_img {
+		margin-top: 60px;
+		width: 85px;
+	}
+	.social__text_textHead {
+		margin-left: 15%;
+		font-size: 1.2em;
+	}
+	.social__text_text {
+		margin-left: 15%;
+		font-size: 0.8em;
 	}
 }
 @media screen and (max-width:540px) {
 	.navPan__nav_list_a {
 		margin-right: 5px;
 		width: 50%;
+	}
+	.social__text_textHead {
+		margin-left: 10%;
+		font-size: 1em;
+	}
+	.social__text_text {
+		margin-left: 10%;
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 420px) {
+	.navPan__nav_list_a {
+		margin-right: 0px;
+	}
+	.navPan__nav_list {
+		margin-right: 5px;
+		padding-left: 0px;
+	}
+	.header__textBox {
+		margin-bottom: 80px;
+	}
+	.social {
+		height: 110px;
 	}
 }
