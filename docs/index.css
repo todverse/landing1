@@ -37,7 +37,10 @@ body {
 	width: 30px;
 	height: 30px;
 	border: 1px solid white;
-	background-color: transparent;
+	background-image: url(images/menu.png);
+	background-size: 30px;
+	background-position: center;
+	border-radius: 5px;
 	margin-left: 85%;
 	margin-top: 20px;
 }
@@ -47,7 +50,7 @@ body {
 .hidden {
 	width: 30%;
 	height: 270px;
-	background-color: black;
+	background-color: rgba(0,0,0,0.6);
 	border: 1px solid white;
 	position: fixed;
 	left: 66%;
@@ -60,7 +63,7 @@ body {
 	color: gray;
 }
 .hiddeList {
-	margin: auto;
+	margin-left: -20%;
 }
 .header {
 	width: 100%;
@@ -182,6 +185,11 @@ body {
 }
 .social__web_img {
 	width: 100%;
+}
+.social__web_img:hover {
+	margin: -3px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 1140px) {
