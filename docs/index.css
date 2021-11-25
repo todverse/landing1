@@ -494,6 +494,96 @@ body {
 .box3 {
 	margin-right: 10%;
 }
+.pricing {
+	width: 100%;
+	height: 775px;
+	background-color: #f5f5f5;
+	display: grid;
+	grid-template-rows: 30% 70%;
+}
+.pricing__textBox {
+	width: 100%;
+	text-align: center;
+}
+.pricing__textBox_textHead {
+	font-family: monospace;
+	font-size: 2.5em;
+	margin-top: 90px;
+}
+.pricing__textBox_underline {
+	width: 8%;
+	border-color: #ff8b38;
+	margin-bottom: 30px;
+}
+.pricing__textBox_text {
+	font-size: 0.8em;
+	color: #86878b;
+}
+.pricing__priceList {
+	width: 100%;
+	display: flex;
+}
+.pricing__priceList_box {
+	width: 21%;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: #333333;
+	border: 1px solid black;
+}
+.pricing__priceList_box_textHead {
+	color: white;
+	margin: 0px;
+	line-height: 40px;
+	font-size: 1.4em;
+	border-bottom: 1px solid white;
+}
+.pricing__priceList_box_img {
+	margin-top: 20px;
+}
+.pricing__priceList_box_perMonth {
+	font-size: 0.8em;
+	color: #888888;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid #ff8b38;
+}
+.centerPriceLine {
+	padding-bottom: 0px;
+	border: none;
+}
+.pricing__priceList_box_popular {
+	line-height: 30px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 1px;
+	color: white;
+	font-size: 0.8em;
+	background-color: #ff8b38;
+}
+.boxForOptions {
+	height: 238px;
+	display: grid;
+	grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+}
+.pricing__priceList_box_options {
+	margin: 1px;
+	line-height: 40px;
+	font-size: 0.7em;
+	background-color: white;
+	color: #86878b;
+}
+.priceList_box1 {
+	margin-right: 0px;
+	margin-left: 15%;
+	margin-top: 30px;
+}
+.priceList_box3 {
+	margin-left: 0px;
+	margin-right: 15%;
+	margin-top: 30px;
+}
 @media screen and (max-width: 1140px) {
 	.header__formBox_form {
 		height: 260px;
@@ -577,6 +667,31 @@ body {
 	.features2 {
 		height: 800px;
 	}
+	.pricing__priceList_box {
+		width: 27%;
+	}
+	.priceList_box1 {
+		margin-right: 0px;
+		margin-left: 7%;
+		margin-top: 30px;
+	}
+	.priceList_box3 {
+		margin-left: 0px;
+		margin-right: 7%;
+		margin-top: 30px;
+	}
+	.pricing__priceList_box_textHead {
+		font-size: 1em;
+	}
+	.pricing__priceList_box_perMonth {
+		font-size: 0.6em;
+	}
+	.pricing__priceList_box_popular {
+		font-size: 0.6em;
+	}
+	.pricing__priceList_box_options {
+		font-size: 0.6em;
+	}
 }
 @media screen and (max-width:540px) {
 	.navPan__nav_list {
@@ -632,6 +747,7 @@ body {
 		width: 100%;
 		height: 140px;
 		margin: 0px;
+		margin-top: 10px;
 	}
 	.process__boxes_box_img {
 		width: 50px;
@@ -641,6 +757,19 @@ body {
 	}
 	.process__boxes_box_text {
 		font-size: 0.8em;
+	}
+	.pricing__priceList_box {
+		width: 32.5%;
+	}
+	.priceList_box1 {
+		margin-right: 0px;
+		margin-left: 0%;
+		margin-top: 30px;
+	}
+	.priceList_box3 {
+		margin-left: 0px;
+		margin-right: 0%;
+		margin-top: 30px;
 	}
 }
 @media screen and (max-width: 420px) {
@@ -715,5 +844,17 @@ body {
 	}
 	.features3__textBox_textHead {
 		margin-top: 25px;
+	}
+	.pricing__priceList {
+		display: block;
+	}
+	.pricing__priceList_box {
+		width: 98%;
+		margin: 0px;
+		margin-top: 100px;
+	}
+	.pricing {
+		height: 2000px;
+		grid-template-rows: 12% 87%;
 	}
 }
