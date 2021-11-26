@@ -52,10 +52,10 @@ body {
 .hidden {
 	width: 30%;
 	height: 270px;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.8);
 	border: 1px solid white;
 	position: fixed;
-	left: 66%;
+	margin-left: 41%;
 }
 .hidde {
 	color: white;
@@ -67,6 +67,24 @@ body {
 .hiddeList {
 	margin-left: -20%;
 }
+.hiddenListSlide {
+  animation-duration: .5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 41%;
+  }
+}
+
+
+
+
 .header {
 	width: 100%;
 	height: 640px;
@@ -161,6 +179,10 @@ body {
 	border: 1px solid gray;
 	color: gray;
 }
+
+
+
+
 .social {
 	display: flex;
 	width: 100%;
@@ -193,6 +215,11 @@ body {
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 5px;
 }
+
+
+
+
+
 .features {
 	width: 100%;
 	height: 595px;
@@ -278,6 +305,12 @@ body {
 	margin-left: 10%;
 	margin-top: 150px;
 }
+
+
+
+
+
+
 .features2 {
 	width: 100%;
 	height: 600px;
@@ -405,6 +438,12 @@ body {
 	margin-top: 200px;
 	box-shadow: 7px 7px 10px rgba(0,0,0,0.6);
 }
+
+
+
+
+
+
 .features3 {
 	width: 100%;
 	height: 525px;
@@ -444,6 +483,13 @@ body {
 	margin-top: 120px;
 	box-shadow: 7px 7px 10px rgba(0,0,0,0.6);
 }
+
+
+
+
+
+
+
 .process {
 	width: 100%;
 	height: 595px;
@@ -494,6 +540,13 @@ body {
 .box3 {
 	margin-right: 10%;
 }
+
+
+
+
+
+
+
 .pricing {
 	width: 100%;
 	height: 775px;
@@ -584,6 +637,191 @@ body {
 	margin-right: 15%;
 	margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+.ourCustomer {
+	width: 100%;
+	height: 590px;
+	display: grid;
+	grid-template-rows: 35% 65%;
+}
+.ourCustomer__textBox {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.ourCustomer__SayingBox {
+	width: 100%;
+}
+.ourCustomer__SayingBox_boxes {
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+.ourCustomer__SayingBox_boxes_box {
+	width: 33.3%;
+	margin: auto;
+}
+.ourCustomer__SayingBox_boxes_box_text {
+	width: 70%;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	color: #86878b;
+	background-image: url(images/cloud.png);
+	background-repeat: no-repeat;
+}
+.whoSaying {
+	width: 40%;
+	height:70px;
+	font-size: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 100px;
+	padding-top: 10px;
+	color: #333333;
+	background-image: url(images/avatar.png);
+	background-repeat: no-repeat;
+}
+.who {
+	padding: 0px;
+	font-size: 0.7em;
+	color: #86878b;
+}
+
+
+
+
+
+
+.stylish {
+	text-align: center;
+	width: 100%;
+	height: 325px;
+	background-image: url(images/background-for-stylish.jpg);
+}
+.stylish__textBox_textHead {
+	font-family: monospace;
+	font-size: 2.5em;
+	padding-top: 80px;
+	color: white;
+}
+.stylish__textBox_underline {
+	width: 8%;
+	margin-bottom: 30px;
+}
+.stylish__textBox_text {
+	font-size: 0.8em;
+	color: white;
+}
+.stylish__textBox_button {
+	width: 20%;
+	height: 40px;
+	margin-top: 20px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+}
+.stylish__textBox_button:hover {
+	border: 1px solid gray;
+	color: gray;
+}
+.contactUs {
+	width: 100%;
+	height: 610px;
+	display: grid;
+	grid-template-rows: 35% 65%;
+}
+.contactUs__textBox {
+	width: 100%;
+	text-align: center;
+}
+.contactUs__formBox {
+	width: 100%;
+}
+.boxForBox {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+}
+.contsctUs__formBox_form_name {
+	width: 80%;
+	height: 35px;
+	margin-left: 9%;
+	margin-bottom: 40px;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+}
+.message {
+	margin-left: 5%;
+	height: 191px;
+}
+.boxForIn {
+	width: 50%;
+}
+.contactUs__formBox_form_send {
+	width: 20%;
+	margin-left: 40%;
+	height: 40px;
+	background-color: #ff9b51;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.contactUs__formBox_form_send:hover {
+	background-color: #f9ba8c;
+}
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+.footer_icons {
+	width: 280px;
+	height: 40px;
+	display: flex;
+	margin: auto;
+}
+.footer_icons_img {
+	margin-left: 5px;
+}
+.footer_icons_img:hover {
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.copyright {
+	text-align: center;
+	padding: 0px;
+	color: #cccccc;
+	width: 280px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1140px) {
 	.header__formBox_form {
 		height: 260px;
@@ -602,6 +840,16 @@ body {
 	}
 	.features2 {
 		height: 650px;
+	}
+	.ourCustomer__SayingBox_boxes_box_text {
+		font-size: 0.8em;
+	}
+	.whoSaying {
+		font-size: 1em;
+		background-size: 25%;
+	}
+	.who {
+		font-size: 0.8em;
 	}
 }
 @media screen and (max-width: 850px) {
@@ -692,6 +940,30 @@ body {
 	.pricing__priceList_box_options {
 		font-size: 0.6em;
 	}
+	.ourCustomer__textBox {
+		margin-bottom: 0px;
+	}
+	.ourCustomer__textBox_text {
+		margin-bottom: 0px;
+	}
+	.ourCustomer__SayingBox_boxes_box_text {
+		font-size: 1em;
+		margin: auto;
+	}
+	.whoSaying {
+		margin: auto;
+	}
+	.ourCustomer__SayingBox_boxes {
+		display: block;
+		width: 100%;
+		margin-top: 0px;
+	}
+	.ourCustomer__SayingBox_boxes_box {
+		width: 280px;
+	}
+	.ourCustomer {
+		height: 1300px;
+	} 
 }
 @media screen and (max-width:540px) {
 	.navPan__nav_list {
@@ -771,6 +1043,26 @@ body {
 		margin-right: 0%;
 		margin-top: 30px;
 	}
+	.contactUs {
+		height: 900px;
+	}
+	.boxForBox {
+		display: block;
+	}
+	.boxForIn {
+		width: 90%;
+		margin: auto;
+	}
+	.contsctUs__formBox_form_name {
+		width: 70%;
+		margin: auto;
+		margin-left: 15%;
+		margin-bottom: 20px;
+	}
+	.contactUs__formBox_form_send {
+		width: 40%;
+		margin-left: 30%;
+	}
 }
 @media screen and (max-width: 420px) {
 	.navPan__nav_list_a {
@@ -849,12 +1141,19 @@ body {
 		display: block;
 	}
 	.pricing__priceList_box {
-		width: 98%;
-		margin: 0px;
+		width: 90%;
+		margin: auto;
+		margin-right: 3%;
 		margin-top: 100px;
 	}
 	.pricing {
 		height: 2000px;
 		grid-template-rows: 12% 87%;
+	}
+	.stylish {
+		height: 400px;
+	}
+	.stylish__textBox_button {
+		width: 35%;
 	}
 }

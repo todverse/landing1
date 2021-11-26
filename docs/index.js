@@ -48,14 +48,19 @@ hidden_btn.style.display = 'none';
 hidden_btn.addEventListener('click', show);
 function hide(event) {
 	hidden.style.display = 'none';
+	hidden.classList.remove('hiddenListSlide');
 	hidden_btn.addEventListener('click', show);
 	hidden_btn.removeEventListener('click', hide);
 };
 function show(event) {
 	hidden.style.display = 'block';
+	hidden.classList.add('hiddenListSlide');
 	hidden_btn.addEventListener('click', hide);
 	hidden_btn.removeEventListener('click', show);
 };
+
+
+window.addEventListener('scroll', hide);
 
 
 if(getComputedStyle(navList).display == 'none') {
